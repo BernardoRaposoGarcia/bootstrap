@@ -8,17 +8,52 @@
     <link rel="stylesheet" href="./assets/css/main.scss" />
   </head>
   <body>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-4 d-flex align-items-center justify-content-center">
+          <span class="badge text-bg-primary">Primary</span>
+          <span class="badge text-bg-secondary">Secondary</span>
+          <span class="badge text-bg-success">Success</span>
+          
+        </div>
+        <div class="col-4 d-flex align-items-center justify-content-center">
+          <span class="badge text-bg-danger cursor-pointer">Danger</span>
+          <span class="badge text-bg-warning cursor-pointer">Warning</span>
+          <span class="badge text-bg-info cursor-pointer">Info</span>
 
-    <button type="button" class="btn btn-link">Link</button>
-    Hello World
+        </div>
+        <div class="col-4 d-flex align-items-center justify-content-center">
+          <span class="badge text-bg-light">Light</span>
+          <span class="badge text-bg-dark">Dark</span>
+          <span class="badge text-bg-lifegreen">lifegreen</span>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="container mt-5">
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+      <button type="button" class="btn btn-lifegreen">LifeGreen</button>
+      <button type="button" class="btn btn-outline-lifegreen">Primary</button>
+
+      <button type="button" class="btn btn-link">Link</button>
+    </div>
+
+    <div class="card text-bg-lifegreen" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-lifegreen">Go somewhere</a>
+      </div>
+    </div>
+
     <script type="module" src="./assets/js/main.js"></script>
   </body>
 </html>
